@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "productCell": "../../component/productCell/productCell"
+  }
+}

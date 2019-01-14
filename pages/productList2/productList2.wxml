@@ -1,0 +1,33 @@
+<!--pages/productList2/productList2.wxml-->
+<view style='overflow: hidden;background: #fff;'>
+<view class='header' style='top:{{navHeight}}px;'>
+  <searchBar bind:tapSearch="gotoDetail">
+  </searchBar>
+  <scroll-view class='scrollView' scroll-x>
+    <view class='tabView' wx:for='{{tab}}' bindtap='clickTab' id='{{index}}'>
+      <view wx:if="{{selectIndex===index}}" class='selectTab'>{{item}}
+      </view>
+      <view wx:else class='tab'>{{item}}</view>
+    </view>
+  </scroll-view>
+</view>
+
+<view class='mainList' >
+ <view class='itemView'
+  bindtap='gotoDetail' 
+  id='{{index}}'
+  style='width:{{viewWidth}}px;' 
+  wx:for="{{dataArray}}">
+  <image src='../../images/haha.png'
+   style='width:{{viewWidth}}px;height:{{viewWidth}}px;'>
+  </image> 
+  <text style='color:2a2c2e;font-size:28rpx;padding-top:20rpx;'>开票日案件浩浩荡荡很多很多哈哈</text>
+  <view style='display: flex;'>
+   <text style='color:#f73a3a;font-size:28rpx;'>¥1580</text>
+   <text style='color:#9ba0aa;font-size:24rpx;padding-left:20rpx;'>原价:</text>
+   <label style='color:#9ba0aa;font-size:24rpx;text-decoration: line-through;text-decoration-color: #9ba0aa;'>¥2580</label>
+  </view>
+ </view>
+</view>
+
+</view>

@@ -1,6 +1,9 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/home/home",
+    "pages/productList/productList",
+    "pages/productList2/productList2"
   ],
   "window": {
     "backgroundTextStyle": "light",

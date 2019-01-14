@@ -1,0 +1,21 @@
+<!--pages/productList/productList.wxml-->
+<view>
+<view class='header'>
+  <scroll-view class='scrollView' scroll-x>
+    <view class='tabView' wx:for='{{tab}}' bindtap='clickTab' id='{{index}}'>
+      <view wx:if="{{selectIndex===index}}" class='selectTab'>{{item}}
+      </view>
+      <view wx:else class='tab'>{{item}}</view>
+    </view>
+  </scroll-view>
+</view>
+
+<view  class='mainList'>
+ <productCell wx:for="{{dataArray}}"
+  bind:didSelectedCell="didSelectedCell"
+  index="{{index}}"
+ >
+ </productCell>
+</view>
+</view>
+

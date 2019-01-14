@@ -1,0 +1,52 @@
+/* pages/productList2/productList2.wxss */
+.mainList {
+ padding: 0rpx 18rpx;
+ background-color: white;
+ display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+ margin-top: 175rpx;
+}
+.header {
+  position: fixed;
+  white-space:nowrap;
+  overflow:hidden;
+  width: 100%;
+  /* flex-direction: column; */
+}
+.itemView {
+  display: flex;
+  padding: 32rpx 0rpx 20rpx;
+  flex-direction: column;
+  margin-right: 18rpx;
+  justify-content: center; 
+}
+.scrollView {
+  width: 100%;
+  border-top: 1rpx solid #f1f1f1;
+  border-bottom: 1rpx solid #f1f1f1;
+  padding-left: 30rpx;
+  background: #fff;
+  white-space: nowrap;
+  height: 85rpx;
+}
+.tab {
+  font-size: 28rpx;
+  color: #2a2c2e;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.selectTab {
+  font-size: 28rpx;
+  color: #f73a3a;
+  border-bottom: 5rpx solid #f73a3a;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.tabView {
+  justify-content: center;
+  align-items: center;
+  margin-right: 120rpx;
+  display: inline-block;
+  height: 85rpx;
+}
