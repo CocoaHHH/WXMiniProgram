@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <button bindtap='bindViewTap'>生成链接</button>
+  <button bindtap='gotoVideo'>视频</button>
+  <button bindtap='gotopPay'>支付</button>
+  <button bindtap='gotoAnimation'>动画</button>
+  <button bindtap='gotoFlex'>flex</button>
+</view>
+
