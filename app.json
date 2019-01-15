@@ -6,9 +6,9 @@
     "pages/productList2/productList2"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "backgroundTextStyle": "drak",
+    "navigationBarBackgroundColor": "#333",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   }
 }

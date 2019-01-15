@@ -1,10 +1,9 @@
 <!--index.wxml-->
 <view class="container">
-  <button bindtap='bindViewTap'>搜索框</button>
   <button bindtap='gotoJiugongge'>九宫格页面</button>
   <button bindtap='gotopList'>商品列表</button>
   <button bindtap='gotopList2'>商品列表2</button>
-  <button bindtap='gotoAnimation'>动画</button>
-  <button bindtap='gotoFlex'>flex</button>
+  <!-- <button bindtap='gotoAnimation'>动画</button>
+  <button bindtap='gotoFlex'>flex</button> -->
 </view>
 

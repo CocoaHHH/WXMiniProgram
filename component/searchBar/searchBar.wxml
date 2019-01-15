@@ -1,0 +1,13 @@
+<!--component/searchBar/searchBar.wxml-->
+<view class='searchView' bindtap='tapSearch'>
+    <view class='searchBG'> 
+      <image class='searchImage' src='../../images/search.png'></image>
+      <input wx:if="{{isInput}}" class='input'
+       placeholder='{{tips}}'
+       placeholder-style="color:#999;"
+       value="{{searchText}}"
+       bindinput="inputListener">
+      </input>
+      <text wx:else class='place'>{{tips}}</text>
+    </view>
+</view>

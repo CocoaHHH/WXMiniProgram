@@ -11,12 +11,9 @@ Page({
     codeImage:'',
   },
 
-  getUserInfo: function(e) {
-    console.log(e)
-    app.globalData.userInfo = e.detail.userInfo
-    this.setData({
-      userInfo: e.detail.userInfo,
-      hasUserInfo: true
+  gotoJiugongge: function(e) {
+    wx.navigateTo({
+      url: '../home/home',
     })
   },
 
