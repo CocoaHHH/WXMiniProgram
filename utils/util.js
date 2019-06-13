@@ -14,6 +14,15 @@ const formatNumber = n => {
   return n[1] ? n : '0' + n
 }
 
+function add() {
+  var sum = 0
+  for (var i = 0;i < arguments.length;i++) {
+    sum += arguments[i];
+  }
+  return sum;
+}
+
 module.exports = {
-  formatTime: formatTime
+  formatTime: formatTime,
+  add: add,
 }

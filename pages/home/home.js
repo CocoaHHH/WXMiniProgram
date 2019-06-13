@@ -1,4 +1,6 @@
 // pages/home/home.js
+const utils = require("../../utils/util.js")
+
 Page({
 
   /**
@@ -48,7 +50,8 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    let a = utils.add(1,2,3,4,5,6,7,8)
+    console.log('sum=' + a)
   },
 
   /**

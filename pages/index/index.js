@@ -35,5 +35,13 @@ Page({
     
   },
 
+  learnArray:function() {
+    
+  },
+
+  jsStudy:function() {
+
+  },
+
   
 })
